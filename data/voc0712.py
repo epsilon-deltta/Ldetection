@@ -26,7 +26,7 @@ VOC_CLASSES = (  # always index 0
 
 # note: if you used our download scripts, this should be right
 # VOC_ROOT = osp.join(HOME, "data/VOCdevkit/")
-VOC_ROOT = './data/VOCdevkit/''
+VOC_ROOT = './data/VOCdevkit/'
 
 class VOCAnnotationTransform(object):
     """Transforms a VOC annotation into a Tensor of bbox coords and label index
